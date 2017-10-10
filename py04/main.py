@@ -19,12 +19,12 @@ class Square(Rectangle):
         self.h=h
         self.w=h
         
-class Ellipse(Rectangle):
+class Ellipse(Square):
     def __init__(self,h,w):
         self.h=h
         self.w=w
         
-class Circle(Geometrie):
+class Circle(Ellipse):
     def __init__(self,r):
         self.r=r
     def area(self):
